@@ -1,0 +1,18 @@
+{
+	"extension_name": {
+		"message": "Slack Bot-Filter",
+		"description": "Extension name"
+	},
+	"extension_shortname": {
+		"message": "Slack Bot-Filter",
+		"description": "Extension Short Name"
+	},
+	"extension_description": {
+		"message": "This extension allows one to filter bot messages out of a slack channel.",
+		"description": "Extension description"
+	},
+	"toggle_button_label": {
+		"message": "Toggle bot messages",
+		"description": "Label of the menu button that toggles the plugin"
+	}
+}

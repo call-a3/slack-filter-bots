@@ -1,0 +1,33 @@
+#channel_filter_bots {
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	color: #9e9ea6;
+	font-size: 1rem;
+	font-weight: bold;
+	padding: .5rem;
+	background: white;
+	position: absolute;
+	-webkit-transitionDISABLED: color .1s ease-out;
+	-moz-transitionDISABLED: color .1s ease-out;
+	-o-transitionDISABLED: color .1s ease-out;
+	transitionDISABLED: color .1s ease-out;
+	font-family: 'Lato',sans-serif;
+	z-index: 25;
+}
+
+#channel_filter_bots:hover, #channel_filter_bots[active] {
+	color: #439fe0;
+	text-decoration: none;
+}
+
+#channel_header #channel_filter_bots {
+	bottom: .4rem;
+	right: 3.15rem;
+}
+
+#search_container #channel_filter_bots {
+	bottom: -31px;
+	right: 3.15rem;
+}
