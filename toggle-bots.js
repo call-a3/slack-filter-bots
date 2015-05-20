@@ -25,9 +25,13 @@ var updateUI = (function(button) { // create updateUI function
         });
         if (STATE) {
             button.setAttribute('active', '');
+            button.children[0].classList.remove('ts_icon_eye');
+            button.children[0].classList.add('ts_icon_eye_closed');
             gobbler.observe(msgContainer, gobbleOptions);
         } else {
             button.removeAttribute('active');
+            button.children[0].classList.remove('ts_icon_eye_closed');
+            button.children[0].classList.add('ts_icon_eye');
             gobbler.disconnect();
         }
     };
@@ -53,11 +57,16 @@ var updateUI = (function(button) { // create updateUI function
 })();
 
 (function(button) { // create DOM interface
+    document.querySelector('#active_channel_name').style['margin-right'] = '5rem';
     var icon = document.createElement('i');
-    icon.classList.add('fa', 'fa-filter');
+    icon.classList.add('channel_botfilter_toggle_icon', 'ts_icon');
 
-    button.id = 'channel_filter_bots';
+    var label = document.createElement('span');
+    label.id = 'channel_botfilter_toggle_count';
+
+    button.id = 'channel_botfilter_toggle';
     button.appendChild(icon);
+    button.appendChild(label);
     button.title = chrome.i18n.getMessage("toggle_button_label");
 
     button.addEventListener('click', function(e) {
@@ -72,6 +81,7 @@ var updateUI = (function(button) { // create updateUI function
 
     var UpdateParent = function() { // Move the toggle when the user button moves
         if (anchor.parentNode !== button.parentNode) {
+            console.log('moving filter-bots button to different parent');
             anchor.parentNode.insertBefore(button, anchor);
         }
     };

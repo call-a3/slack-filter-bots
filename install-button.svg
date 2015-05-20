@@ -1,0 +1,15 @@
+<svg height="30" width="158" xmlns="http://www.w3.org/2000/svg">
+  <linearGradient id="a" x2="0" y2="100%">
+    <stop offset="0" stop-color="#5689db"/>
+    <stop offset="1" stop-color="#4d7bd6"/>
+  </linearGradient>
+  <rect fill="url(#a)" height="30" rx="3" width="158" stroke="#2d53af" stroke-width="1"/>
+  <g font-family="Open Sans,arial,sans-serif" font-size="20" text-anchor="middle">
+    <text fill-opacity=".1" fill="#000" x="26" y="23" font-weight="bold">+</text>
+    <text x="25" y="22" fill="#fff" font-weight="bold">+</text>
+  </g>
+  <g font-family="Open Sans,arial,sans-serif" font-size="11" text-anchor="middle">
+    <text fill-opacity=".1" fill="#000" x="87" y="20" font-weight="bold">ADD TO CHROME</text>
+    <text x="86" y="19" fill="#fff" font-weight="bold">ADD TO CHROME</text>
+  </g>
+</svg>
