@@ -37,4 +37,4 @@ This allows you to focus on what the actual humans are saying.
 [shieldio-stars]:   https://img.shields.io/github/stars/call-a3/slack-filter-bots.svg
 [shieldio-license]: https://img.shields.io/github/license/call-a3/slack-filter-bots.svg
 [button-version]:   https://img.shields.io/badge/version-0.2.3-blue.svg
-[button-install]:   ./install-button.svg
+[button-install]:   https://cdn.rawgit.com/call-a3/slack-filter-bots/7f62431f0d3e460b23e34b87a9bcb27fca0edaba/install-button.svg
