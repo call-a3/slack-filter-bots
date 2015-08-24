@@ -18,7 +18,7 @@ This allows you to focus on what the actual humans are saying.
 (Filtering is enabled/disabled on a per-domain, per-channel basis.)
 
 ## Changelog
-
+ * 0.2.4: Fix for change in slack layout (class renaming)
  * 0.2.3:
     - Added a README on the github page
     - Adjusted to match the new styling of Slack

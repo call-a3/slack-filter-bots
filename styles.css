@@ -4,7 +4,7 @@
   -ms-user-select: none;
   user-select: none;
   color: #9e9ea6;
-  font-size: 1rem;
+  font-size: 15px;
   font-weight: 700;
   padding: .5rem;
   background: #fff;
@@ -16,31 +16,11 @@
   z-index: 25;
 }
 
-.feature_flexpane_rework #channel_botfilter_toggle {
-  color: #67686e;
-  font-size: 15px;
-}
-
-.feature_flexpane_rework #channel_header #channel_botfilter_toggle {
+#channel_header #channel_botfilter_toggle {
   bottom: .6rem;
   right: 3rem;
 }
 
-.feature_flexpane_rework #channel_botfilter_toggle:hover .channel_botfilter_toggle_icon {
-  color: #67686e;
-}
-
-.feature_flexpane_rework #channel_botfilter_toggle .channel_botfilter_toggle_icon {
-  color: #9e9ea6;
-}
-
-.feature_flexpane_rework .channel_botfilter_toggle_icon:before {
-  font-size: 16px;
-  font-weight: 400;
-  position: relative;
-  top: 1px;
-}
-
-#channel_botfilter_toggle[active], .feature_flexpane_rework #channel_botfilter_toggle[active] .channel_botfilter_toggle_icon {
+#channel_botfilter_toggle[active] {
 	color: #439fe0;
 }

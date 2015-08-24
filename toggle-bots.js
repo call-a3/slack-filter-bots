@@ -81,7 +81,6 @@ var updateUI = (function(button) { // create updateUI function
 
     var UpdateParent = function() { // Move the toggle when the user button moves
         if (anchor.parentNode !== button.parentNode) {
-            console.log('moving filter-bots button to different parent');
             anchor.parentNode.insertBefore(button, anchor);
         }
     };
