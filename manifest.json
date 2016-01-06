@@ -4,7 +4,7 @@
   "name": "__MSG_extension_name__",
   "short_name": "__MSG_extension_shortname__",
   "description": "__MSG_extension_description__",
-  "version": "0.2.4",
+  "version": "0.2.5",
 
   "author": "Adriaan Callaerts <adriaan.callaerts@gmail.com>",
 
@@ -16,15 +16,20 @@
     "230": "icon.png"
   },
 
+  "background": {
+    "persistent": false,
+    "scripts": ["background.js"]
+  },
   "content_scripts": [
     {
       "matches": ["https://*.slack.com/messages/*"],
-      "js": ["toggle-bots.js"],
-      "css": ["styles.css"]
+      "js": ["toggle.js", "hide-bots.js"],
+      "css": ["toggle.css"]
     }
   ],
   "permissions": [
     "tabs",
-    "storage"
+    "storage",
+    "webNavigation"
   ]
 }

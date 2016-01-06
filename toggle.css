@@ -1,0 +1,40 @@
+#channel_botfilter_toggle {
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none;
+  color:#67686e;
+  font-size:15px;
+  font-weight:700;
+  padding:.5rem;
+  background:#fff;
+  -webkit-transition:color .1s ease-out 0s;
+  -moz-transition:color .1s ease-out 0s;
+  transition:color .1s ease-out 0s;
+  font-family:Slack-Lato,appleLogo,sans-serif;
+  z-index:25;
+  position:relative;
+  top:10px;
+  display:inline-block;
+  vertical-align:top;
+}
+#channel_botfilter_toggle .channel_botfilter_toggle_icon {
+  color:#9e9ea6;
+}
+#channel_botfilter_toggle .channel_botfilter_toggle_icon:before {
+  font-size:1pc;
+  font-weight:400;
+  position:relative;
+  top:1px;
+  left: -2px; /*EXTRA*/
+}
+#channel_botfilter_toggle:hover {
+  text-decoration:none;
+}
+#channel_botfilter_toggle:hover .channel_botfilter_toggle_icon {
+  color:#67686e;
+}
+/* extra */
+#channel_botfilter_toggle[active], #channel_botfilter_toggle[active] .channel_botfilter_toggle_icon {
+  color:#2d9cf5;
+}
