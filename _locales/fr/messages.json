@@ -1,0 +1,18 @@
+{
+	"extension_name": {
+		"message": "Slack Bot-Filter",
+		"description": "Nom de l'extension"
+	},
+	"extension_shortname": {
+		"message": "Slack Bot-Filter",
+		"description": "Nom court de l'extension"
+	},
+	"extension_description": {
+		"message": "Cette extension permet de filtrer les messages de bots dans les channels Slack",
+		"description": "Description de l'extension"
+	},
+	"toggle_button_label": {
+		"message": "Afficher/Masquer les messages de bots",
+		"description": "Libelle du bouton d'affichage des messages."
+	}
+}
