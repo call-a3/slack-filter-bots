@@ -5,7 +5,6 @@
 [![Github forks][shieldio-forks]][github-link]
 [![Github stars][shieldio-stars]][github-link]
 [![Github license][shieldio-license]][github-link]
-[![Analytics][google-analytics]](https://github.com/igrigorik/ga-beacon)
 
 Do you love slack? Do you love how it gathers all information in one place? Do you heavily use integrations to keep up to speed with version control, project management, continuous integration, ...?
 
@@ -37,6 +36,5 @@ This allows you to focus on what the actual humans are saying.
 [shieldio-forks]:   https://img.shields.io/github/forks/call-a3/slack-filter-bots.svg
 [shieldio-stars]:   https://img.shields.io/github/stars/call-a3/slack-filter-bots.svg
 [shieldio-license]: https://img.shields.io/github/license/call-a3/slack-filter-bots.svg
-[button-version]:   https://img.shields.io/badge/version-0.2.3-blue.svg
+[button-version]:   https://img.shields.io/badge/version-0.2.4-blue.svg
 [button-install]:   https://cdn.rawgit.com/call-a3/slack-filter-bots/7f62431f0d3e460b23e34b87a9bcb27fca0edaba/install-button.svg
-[google-analytics]: https://ga-beacon.appspot.com/UA-66664992-1/call-a3/slack-filter-bots?pixel
