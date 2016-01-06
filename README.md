@@ -18,7 +18,9 @@ This allows you to focus on what the actual humans are saying.
 (Filtering is enabled/disabled on a per-domain, per-channel basis.)
 
 ## Changelog
- * 0.2.5: Fix for changes in slack layout (relative positioning ipo absolute). Also restructured code to make future change adjustments easier.
+ * 0.2.5:
+   - Fix for changes in slack layout (relative positioning ipo absolute)
+   - Restructured code to make future change adjustments easier.
  * 0.2.4: Fix for change in slack layout (class renaming)
  * 0.2.3:
     - Added a README on the github page
